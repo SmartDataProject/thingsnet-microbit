@@ -24,7 +24,7 @@ Was it worth it? -Judge for yourselves.
 7. Open "web_demo.html" in your browser.
 
 8. Profit:
-![internet_of_connected_root_shells](/img/net_of_trash.jpg)
+![internet_of_connected_root_shells](/img/net_of_trash.png)
 
 
 
