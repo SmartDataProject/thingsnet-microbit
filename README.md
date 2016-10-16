@@ -17,9 +17,14 @@ Was it worth it? -Judge for yourselves.
 ![itsalive](/img/thing_accel.png)
 
 6. We'll use the Paho MQTT client to grab the data from the app, then shove to a web-socket server made with the AutoBahn library via ZMQ. Run the socket-server first:
-`python socket_server.py 
-python mqtt_demo.py`
 
+`python socket_server.py` 
+`python mqtt_demo.py`
+
+7. Open "web_demo.html" in your browser.
+
+8. Profit:
+![internet_of_connected_root_shells](/img/net_of_trash.jpg)
 
 
 
