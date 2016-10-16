@@ -21,7 +21,7 @@ Was it worth it? -Judge for yourselves.
 `python socket_server.py` 
 `python mqtt_demo.py`
 
-7. Open web_demo.html in your browser.
+Now open "web_demo.html" in your browser.
 ![internet_of_connected_root_shells](/img/net_of_trash.png)
 Profit.
 
