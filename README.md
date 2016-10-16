@@ -11,10 +11,15 @@ Was it worth it? -Judge for yourselves.
 
 3. Set up an app at https://staging.thethingsnetwork.org. Add the decoder and validator js functions.
 
-4. Copy the various keys from the app to ThingsUno sketch as per the tutorial.
+4. Copy the various keys from the app to the ThingsUno sketch as per the tutorial.
 
 5. Upload and run the sketch. The data from the Ardunio serial console should show up in the app.
 ![itsalive](/img/thing_accel.png)
+
+6. We'll use the Paho MQTT client to grab the data from the app, then shove to a web-socket server made with the AutoBahn library via ZMQ. Run the socket-server first:
+`python socket_server.py 
+python mqtt_demo.py`
+
 
 
 
