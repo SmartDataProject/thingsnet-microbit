@@ -2,7 +2,7 @@ In which we connect a BBC MicroBit's accelerometer to the ThingsNetwork.
 
 Was it worth it? -Judge for yourselves.
 
-1. Put code on the MicroBit. [MicroBit](http://microbit.org/)
+1. Put code on the [MicroBit](http://microbit.org/).
 ![microbitcode](/img/microbit_py.png)
 -Mount the MicroBit as mass-storage and copy across the .hex file as usual.
 
@@ -16,7 +16,7 @@ Was it worth it? -Judge for yourselves.
 5. Upload and run the sketch. The data from the Ardunio serial console should show up in the app.
 ![itsalive](/img/thing_accel.png)
 
-6. We'll use the Paho MQTT client to grab the data from the app. https://github.com/eclipse/paho.mqtt.python We can shove to a web-socket server made with the AutoBahn library via ZMQ [PyZMQ](https://pyzmq.readthedocs.io/en/latest/). Run the socket-server first:
+6. We'll use the [Paho MQTT](https://github.com/eclipse/paho.mqtt.python) client to grab the data from the app. We can shove to a web-socket server made with the AutoBahn library via [PyZMQ](https://pyzmq.readthedocs.io/en/latest/). Run the socket-server first:
 
 ````python socket_server.py 
 python mqtt_demo.py```
